@@ -1,0 +1,75 @@
+body{
+  line-height: 2em;
+}
+
+.input {
+    margin: 25px; 
+    overflow: hidden; 
+    padding: 30px;  
+    border : 1px solid green;    
+  }
+
+img{
+ 
+  margin-left: 20px;
+}  
+.outputDatums,.outputBevestiging {
+  margin : 25px;
+  display: flex;
+  padding : 30px;
+ 
+}
+
+
+ .eindDiv {
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 30px;
+    margin: 25px;
+    
+  }
+
+  label {  
+    display: inline-block;  
+    width: 100px;
+   }
+   
+   button {
+     margin-left: 15px;
+   }
+
+   .datumInput {
+       width: 40px;
+   }
+
+   .datumElement {
+       padding: 10px;
+       background-color:var(--blue);
+       color: white;
+       margin-left: 10px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       cursor: pointer;       
+   }
+
+   .goedkoopst {
+     background-color: rgba(2, 145, 2, 0.575);
+     color: whitesmoke;
+   }
+
+   .duurst {
+    background-color: var(--pink);
+   }
+
+   .datumElement:hover {
+    background-color: lightsteelblue;
+    
+   }
+
+   .duurst:hover {
+    background-color: rgba(165, 116, 116, 0.801);
+      }
+
+   .goedkoopst:hover {
+    background-color: lightgreen;    
+   }
