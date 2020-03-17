@@ -1,5 +1,6 @@
 oe-objecten-vluchtKeuze-start
 # Vluchtgegevens verzamelen
+![Screenshot](img/Reservering.png)
 ## Opstarten
 - Aan btnBevestig worden de functions BepaalVluchten, BepaalHoogsteEnLaagstePrijs en MaakPrijsKnoppen gekoppeld.
 - Er worden enkele standaardwaarden ingevuld, nl. in txtVertrek en txtAankomst. In dtpVertrekDatum komt de datum die 2 maanden na vandaag ligt.
@@ -27,9 +28,9 @@ De array **vluchten** wordt overlopen en op basis van de gegevens worden er div-
 - divPrijsKeuze krijgt de klasse eindDiv en wordt getoond
 
 ## Uitbreiding
-Voorzie validatiecontrole bij een klik op de knop btnBevestig:
-- Ligt de gekozen datum in de toekomst?
-- Is de input in de textboxen lang genoeg?
-- Zijn de vertrek- en aankomstplaats niet hetzelfde?
-
-Laat de datums variëren met telkens 1 dag verschil
+- Voorzie validatiecontrole bij een klik op de knop btnBevestig:
+  - Ligt de gekozen datum in de toekomst?
+  - Is de input in de textboxen lang genoeg?
+  - Zijn de vertrek- en aankomstplaats niet hetzelfde?
+- Laat de datums variëren met telkens 1 dag verschil. 
+  Begin bvb. met de dag voor de ingegeven datum, daarna de ingegeven datum, gevolgd door de dag volgende op de ingegeven datum.
